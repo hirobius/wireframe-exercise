@@ -1,16 +1,43 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+
 nav div {
   background-color: blue;
   width: 960px;
 }
 
 header {
-  line-height: 100px;
-  width: 100%;
-  background-color: green;
-  margin: auto
+  background-color: #444444;
+  height: 100px;
 }
 
-header:nth-child(2) {
+header img {
+  margin-top: 10px;
+}
+
+nav {
+  width: 960px;
+  margin: auto;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 80px;
+  margin-top: 5px;
+  vertical-align: middle;
+}
+
+nav li:nth-child(1) {
+  margin-left: 0px;
+}
+
+nav li:nth-child(2) {
   margin-left: 30px;
 }
 
@@ -19,9 +46,6 @@ nav a {
   color: #aaa;;
 }
 
-li {
-  display: inline-block;
-}
 
 main {
   width: 960px;
