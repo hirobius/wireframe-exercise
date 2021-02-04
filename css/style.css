@@ -6,7 +6,6 @@ li {
   list-style-type: none;
 }
 
-
 nav div {
   background-color: blue;
   width: 960px;
@@ -46,10 +45,10 @@ nav a {
   color: #aaa;;
 }
 
-
 main {
   width: 960px;
   margin: auto;
+  position: relative;
 }
 
 main img {
@@ -82,24 +81,37 @@ main article {
 
 main h2 {
   margin-left: 30px;
-  font-size: 20px;
+  font-size: 125%;
 }
 
 main p {
-  height: 300px;
+  height: 334px;
   overflow: auto;
+  line-height: 150%;
 }
 
 article div {
   background-color: #111;
-  color: #eee;
   margin-top: 5px;
   margin-left: 30px;
   padding: 10px 30px;
   display: inline-block;
+  border-radius: 4px;
+  text-decoration: none;
 }
 
 article div:hover {
   background-color: green;
   transition: 350ms;
+}
+
+article a {
+  text-decoration: none;
+  color: #eee;
+}
+
+footer {
+  height: 130px;
+  background-color: #444;
+  margin-top: 30px;
 }
